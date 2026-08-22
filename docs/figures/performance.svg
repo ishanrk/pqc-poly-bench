@@ -1,16 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="340" viewBox="0 0 760 340">
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="430" viewBox="0 0 820 430">
 <rect width="100%" height="100%" fill="white"/>
-<style>text{font-family:system-ui,sans-serif;fill:#111827}.t{font-size:19px;font-weight:600}.a{font-size:12px}.v{font-size:12px;font-weight:600}.bar{fill:#374151}.grid{stroke:#d1d5db}.budget{stroke:#b91c1c;stroke-width:1.5;stroke-dasharray:6 5}.bl{fill:#b91c1c;font-size:11px}</style>
-<text x="380.0" y="27" text-anchor="middle" class="t">Geometric mean speedup vs tuned software</text>
-<line x1="70" y1="274.0" x2="735" y2="274.0" class="grid"/><text x="62" y="278.0" text-anchor="end" class="a">0</text>
-<line x1="70" y1="228.8" x2="735" y2="228.8" class="grid"/><text x="62" y="232.8" text-anchor="end" class="a">11</text>
-<line x1="70" y1="183.6" x2="735" y2="183.6" class="grid"/><text x="62" y="187.6" text-anchor="end" class="a">22</text>
-<line x1="70" y1="138.4" x2="735" y2="138.4" class="grid"/><text x="62" y="142.4" text-anchor="end" class="a">33</text>
-<line x1="70" y1="93.2" x2="735" y2="93.2" class="grid"/><text x="62" y="97.2" text-anchor="end" class="a">44</text>
-<line x1="70" y1="48.0" x2="735" y2="48.0" class="grid"/><text x="62" y="52.0" text-anchor="end" class="a">55</text>
-<rect x="92.0" y="247.3" width="138.8" height="26.7" rx="3" class="bar"/><text x="161.4" y="241.3" text-anchor="middle" class="v">6.49</text><text x="161.4" y="297" text-anchor="middle" class="a">FQMUL</text>
-<rect x="252.8" y="251.8" width="138.8" height="22.2" rx="3" class="bar"/><text x="322.1" y="245.8" text-anchor="middle" class="v">5.40</text><text x="322.1" y="297" text-anchor="middle" class="a">RED32</text>
-<rect x="413.5" y="78.4" width="138.8" height="195.6" rx="3" class="bar"/><text x="482.9" y="72.4" text-anchor="middle" class="v">47.59</text><text x="482.9" y="297" text-anchor="middle" class="a">FSRI comb</text>
-<rect x="574.2" y="103.3" width="138.8" height="170.7" rx="3" class="bar"/><text x="643.6" y="97.3" text-anchor="middle" class="v">41.54</text><text x="643.6" y="297" text-anchor="middle" class="a">FSRI reuse</text>
-<text x="18" y="161.0" transform="rotate(-90 18 161.0)" text-anchor="middle" class="a">speedup (%)</text>
+<style>text{font-family:DejaVu Sans,Arial,sans-serif;fill:#111}.tick{font-size:11px}.small{font-size:9px}.legend{font-size:10px}.axis{stroke:#111;stroke-width:1}.grid{stroke:#ddd;stroke-width:1}</style>
+<line class="grid" x1="70" y1="365.0" x2="800" y2="365.0"/><text class="tick" x="62" y="369.0" text-anchor="end">0</text>
+<line class="grid" x1="70" y1="319.3" x2="800" y2="319.3"/><text class="tick" x="62" y="323.3" text-anchor="end">5</text>
+<line class="grid" x1="70" y1="273.6" x2="800" y2="273.6"/><text class="tick" x="62" y="277.6" text-anchor="end">10</text>
+<line class="grid" x1="70" y1="227.9" x2="800" y2="227.9"/><text class="tick" x="62" y="231.9" text-anchor="end">15</text>
+<line class="grid" x1="70" y1="182.1" x2="800" y2="182.1"/><text class="tick" x="62" y="186.1" text-anchor="end">20</text>
+<line class="grid" x1="70" y1="136.4" x2="800" y2="136.4"/><text class="tick" x="62" y="140.4" text-anchor="end">25</text>
+<line class="grid" x1="70" y1="90.7" x2="800" y2="90.7"/><text class="tick" x="62" y="94.7" text-anchor="end">30</text>
+<line class="grid" x1="70" y1="45.0" x2="800" y2="45.0"/><text class="tick" x="62" y="49.0" text-anchor="end">35</text>
+<line class="axis" x1="70" y1="45" x2="70" y2="365"/><line class="axis" x1="70" y1="365" x2="800" y2="365"/>
+<text class="tick" transform="translate(18 205.0) rotate(-90)" text-anchor="middle">keygen + encapsulation + decapsulation (million CPU cycles)</text>
+<text class="tick" x="191.7" y="395" text-anchor="middle">ML-KEM-512</text>
+<rect x="130.2" y="246.1" width="18" height="118.9" fill="#1f77b4"/><text class="small" x="139.2" y="242.1" text-anchor="middle">13.00</text>
+<rect x="151.2" y="249.5" width="18" height="115.5" fill="#ff7f0e"/><text class="small" x="160.2" y="245.5" text-anchor="middle">12.64</text>
+<rect x="172.2" y="258.0" width="18" height="107.0" fill="#2ca02c"/><text class="small" x="181.2" y="254.0" text-anchor="middle">11.70</text>
+<rect x="193.2" y="256.7" width="18" height="108.3" fill="#d62728"/><text class="small" x="202.2" y="252.7" text-anchor="middle">11.85</text>
+<rect x="214.2" y="285.4" width="18" height="79.6" fill="#9467bd"/><text class="small" x="223.2" y="281.4" text-anchor="middle">8.70</text>
+<rect x="235.2" y="282.2" width="18" height="82.8" fill="#8c564b"/><text class="small" x="244.2" y="278.2" text-anchor="middle">9.06</text>
+<text class="tick" x="435.0" y="395" text-anchor="middle">ML-KEM-768</text>
+<rect x="373.5" y="176.1" width="18" height="188.9" fill="#1f77b4"/><text class="small" x="382.5" y="172.1" text-anchor="middle">20.66</text>
+<rect x="394.5" y="180.8" width="18" height="184.2" fill="#ff7f0e"/><text class="small" x="403.5" y="176.8" text-anchor="middle">20.14</text>
+<rect x="415.5" y="191.1" width="18" height="173.9" fill="#2ca02c"/><text class="small" x="424.5" y="187.1" text-anchor="middle">19.02</text>
+<rect x="436.5" y="189.6" width="18" height="175.4" fill="#d62728"/><text class="small" x="445.5" y="185.6" text-anchor="middle">19.19</text>
+<rect x="457.5" y="240.6" width="18" height="124.4" fill="#9467bd"/><text class="small" x="466.5" y="236.6" text-anchor="middle">13.60</text>
+<rect x="478.5" y="235.3" width="18" height="129.7" fill="#8c564b"/><text class="small" x="487.5" y="231.3" text-anchor="middle">14.19</text>
+<text class="tick" x="678.3" y="395" text-anchor="middle">ML-KEM-1024</text>
+<rect x="616.8" y="77.2" width="18" height="287.8" fill="#1f77b4"/><text class="small" x="625.8" y="73.2" text-anchor="middle">31.48</text>
+<rect x="637.8" y="81.9" width="18" height="283.1" fill="#ff7f0e"/><text class="small" x="646.8" y="77.9" text-anchor="middle">30.96</text>
+<rect x="658.8" y="96.9" width="18" height="268.1" fill="#2ca02c"/><text class="small" x="667.8" y="92.9" text-anchor="middle">29.32</text>
+<rect x="679.8" y="94.2" width="18" height="270.8" fill="#d62728"/><text class="small" x="688.8" y="90.2" text-anchor="middle">29.61</text>
+<rect x="700.8" y="175.6" width="18" height="189.4" fill="#9467bd"/><text class="small" x="709.8" y="171.6" text-anchor="middle">20.71</text>
+<rect x="721.8" y="167.2" width="18" height="197.8" fill="#8c564b"/><text class="small" x="730.8" y="163.2" text-anchor="middle">21.63</text>
+<rect x="80" y="10" width="18" height="9" fill="#1f77b4"/><text class="legend" x="105" y="19">mlkem-native portable</text>
+<rect x="325" y="10" width="18" height="9" fill="#ff7f0e"/><text class="legend" x="350" y="19">best software schedule</text>
+<rect x="570" y="10" width="18" height="9" fill="#2ca02c"/><text class="legend" x="595" y="19">FQMUL</text>
+<rect x="80" y="28" width="18" height="9" fill="#d62728"/><text class="legend" x="105" y="37">RED32</text>
+<rect x="325" y="28" width="18" height="9" fill="#9467bd"/><text class="legend" x="350" y="37">FSRI combinational</text>
+<rect x="570" y="28" width="18" height="9" fill="#8c564b"/><text class="legend" x="595" y="37">FSRI multiplier reuse</text>
 </svg>
