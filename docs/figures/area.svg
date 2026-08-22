@@ -1,17 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="340" viewBox="0 0 760 340">
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="390" viewBox="0 0 720 390">
 <rect width="100%" height="100%" fill="white"/>
-<style>text{font-family:system-ui,sans-serif;fill:#111827}.t{font-size:19px;font-weight:600}.a{font-size:12px}.v{font-size:12px;font-weight:600}.bar{fill:#374151}.grid{stroke:#d1d5db}.budget{stroke:#b91c1c;stroke-width:1.5;stroke-dasharray:6 5}.bl{fill:#b91c1c;font-size:11px}</style>
-<text x="380.0" y="27" text-anchor="middle" class="t">LUT4 overhead vs baseline</text>
-<line x1="70" y1="274.0" x2="735" y2="274.0" class="grid"/><text x="62" y="278.0" text-anchor="end" class="a">0</text>
-<line x1="70" y1="228.8" x2="735" y2="228.8" class="grid"/><text x="62" y="232.8" text-anchor="end" class="a">3</text>
-<line x1="70" y1="183.6" x2="735" y2="183.6" class="grid"/><text x="62" y="187.6" text-anchor="end" class="a">6</text>
-<line x1="70" y1="138.4" x2="735" y2="138.4" class="grid"/><text x="62" y="142.4" text-anchor="end" class="a">8</text>
-<line x1="70" y1="93.2" x2="735" y2="93.2" class="grid"/><text x="62" y="97.2" text-anchor="end" class="a">11</text>
-<line x1="70" y1="48.0" x2="735" y2="48.0" class="grid"/><text x="62" y="52.0" text-anchor="end" class="a">14</text>
-<rect x="92.0" y="181.6" width="138.8" height="92.4" rx="3" class="bar"/><text x="161.4" y="175.6" text-anchor="middle" class="v">5.72</text><text x="161.4" y="297" text-anchor="middle" class="a">FQMUL</text>
-<rect x="252.8" y="169.0" width="138.8" height="105.0" rx="3" class="bar"/><text x="322.1" y="163.0" text-anchor="middle" class="v">6.50</text><text x="322.1" y="297" text-anchor="middle" class="a">RED32</text>
-<rect x="413.5" y="78.0" width="138.8" height="196.0" rx="3" class="bar"/><text x="482.9" y="72.0" text-anchor="middle" class="v">12.14</text><text x="482.9" y="297" text-anchor="middle" class="a">FSRI comb</text>
-<rect x="574.2" y="128.9" width="138.8" height="145.1" rx="3" class="bar"/><text x="643.6" y="122.9" text-anchor="middle" class="v">8.99</text><text x="643.6" y="297" text-anchor="middle" class="a">FSRI reuse</text>
-<line x1="70" y1="193.3" x2="735" y2="193.3" class="budget"/><text x="732" y="187.3" text-anchor="end" class="bl">5% budget</text>
-<text x="18" y="161.0" transform="rotate(-90 18 161.0)" text-anchor="middle" class="a">LUT4 increase (%)</text>
+<style>text{font-family:DejaVu Sans,Arial,sans-serif;fill:#111}.tick{font-size:11px}.small{font-size:10px}.axis{stroke:#111;stroke-width:1}.grid{stroke:#ddd;stroke-width:1}.threshold{stroke:#444;stroke-width:1.5;stroke-dasharray:6 4}</style>
+<line class="grid" x1="70" y1="330.0" x2="695" y2="330.0"/><text class="tick" x="62" y="334.0" text-anchor="end">0</text>
+<line class="grid" x1="70" y1="269.0" x2="695" y2="269.0"/><text class="tick" x="62" y="273.0" text-anchor="end">860</text>
+<line class="grid" x1="70" y1="208.0" x2="695" y2="208.0"/><text class="tick" x="62" y="212.0" text-anchor="end">1720</text>
+<line class="grid" x1="70" y1="147.0" x2="695" y2="147.0"/><text class="tick" x="62" y="151.0" text-anchor="end">2580</text>
+<line class="grid" x1="70" y1="86.0" x2="695" y2="86.0"/><text class="tick" x="62" y="90.0" text-anchor="end">3440</text>
+<line class="grid" x1="70" y1="25.0" x2="695" y2="25.0"/><text class="tick" x="62" y="29.0" text-anchor="end">4300</text>
+<line class="axis" x1="70" y1="25" x2="70" y2="330"/><line class="axis" x1="70" y1="330" x2="695" y2="330"/>
+<text class="tick" transform="translate(18 177.5) rotate(-90)" text-anchor="middle">LUT4</text>
+<line class="threshold" x1="70" y1="63.1" x2="695" y2="63.1"/><text class="small" x="691" y="58.1" text-anchor="end">+5% LUT budget</text>
+<rect x="95.0" y="75.9" width="75" height="254.1" fill="#1f77b4"/><text class="small" x="132.5" y="69.9" text-anchor="middle">3,583</text><text class="tick" x="132.5" y="358" text-anchor="middle">baseline</text>
+<rect x="220.0" y="61.3" width="75" height="268.7" fill="#2ca02c"/><text class="small" x="257.5" y="55.3" text-anchor="middle">3,788</text><text class="tick" x="257.5" y="358" text-anchor="middle">FQMUL</text>
+<rect x="345.0" y="59.3" width="75" height="270.7" fill="#d62728"/><text class="small" x="382.5" y="53.3" text-anchor="middle">3,816</text><text class="tick" x="382.5" y="358" text-anchor="middle">RED32</text>
+<rect x="470.0" y="45.0" width="75" height="285.0" fill="#9467bd"/><text class="small" x="507.5" y="39.0" text-anchor="middle">4,018</text><text class="tick" x="507.5" y="358" text-anchor="middle">FSRI comb.</text>
+<rect x="595.0" y="53.0" width="75" height="277.0" fill="#8c564b"/><text class="small" x="632.5" y="47.0" text-anchor="middle">3,905</text><text class="tick" x="632.5" y="358" text-anchor="middle">FSRI reuse</text>
 </svg>
