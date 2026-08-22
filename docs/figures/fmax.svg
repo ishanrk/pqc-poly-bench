@@ -1,18 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="340" viewBox="0 0 760 340">
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="390" viewBox="0 0 720 390">
 <rect width="100%" height="100%" fill="white"/>
-<style>text{font-family:system-ui,sans-serif;fill:#111827}.t{font-size:19px;font-weight:600}.a{font-size:12px}.v{font-size:12px;font-weight:600}.bar{fill:#374151}.grid{stroke:#d1d5db}.budget{stroke:#b91c1c;stroke-width:1.5;stroke-dasharray:6 5}.bl{fill:#b91c1c;font-size:11px}</style>
-<text x="380.0" y="27" text-anchor="middle" class="t">Median post-route Fmax</text>
-<line x1="70" y1="274.0" x2="735" y2="274.0" class="grid"/><text x="62" y="278.0" text-anchor="end" class="a">0</text>
-<line x1="70" y1="228.8" x2="735" y2="228.8" class="grid"/><text x="62" y="232.8" text-anchor="end" class="a">15</text>
-<line x1="70" y1="183.6" x2="735" y2="183.6" class="grid"/><text x="62" y="187.6" text-anchor="end" class="a">30</text>
-<line x1="70" y1="138.4" x2="735" y2="138.4" class="grid"/><text x="62" y="142.4" text-anchor="end" class="a">45</text>
-<line x1="70" y1="93.2" x2="735" y2="93.2" class="grid"/><text x="62" y="97.2" text-anchor="end" class="a">60</text>
-<line x1="70" y1="48.0" x2="735" y2="48.0" class="grid"/><text x="62" y="52.0" text-anchor="end" class="a">75</text>
-<rect x="92.0" y="67.0" width="106.6" height="207.0" rx="3" class="bar"/><text x="145.3" y="61.0" text-anchor="middle" class="v">68.70</text><text x="145.3" y="297" text-anchor="middle" class="a">baseline</text>
-<rect x="220.6" y="91.7" width="106.6" height="182.3" rx="3" class="bar"/><text x="273.9" y="85.7" text-anchor="middle" class="v">60.51</text><text x="273.9" y="297" text-anchor="middle" class="a">FQMUL</text>
-<rect x="349.2" y="92.6" width="106.6" height="181.4" rx="3" class="bar"/><text x="402.5" y="86.6" text-anchor="middle" class="v">60.20</text><text x="402.5" y="297" text-anchor="middle" class="a">RED32</text>
-<rect x="477.8" y="73.0" width="106.6" height="201.0" rx="3" class="bar"/><text x="531.1" y="67.0" text-anchor="middle" class="v">66.72</text><text x="531.1" y="297" text-anchor="middle" class="a">FSRI comb</text>
-<rect x="606.4" y="122.6" width="106.6" height="151.4" rx="3" class="bar"/><text x="659.7" y="116.6" text-anchor="middle" class="v">50.25</text><text x="659.7" y="297" text-anchor="middle" class="a">FSRI reuse</text>
-<line x1="70" y1="71.1" x2="735" y2="71.1" class="budget"/><text x="732" y="65.1" text-anchor="end" class="bl">2% loss budget</text>
-<text x="18" y="161.0" transform="rotate(-90 18 161.0)" text-anchor="middle" class="a">MHz</text>
+<style>text{font-family:DejaVu Sans,Arial,sans-serif;fill:#111}.tick{font-size:11px}.small{font-size:10px}.axis{stroke:#111;stroke-width:1}.grid{stroke:#ddd;stroke-width:1}.threshold{stroke:#444;stroke-width:1.5;stroke-dasharray:6 4}.target{stroke:#777;stroke-width:1.2;stroke-dasharray:2 4}</style>
+<line class="grid" x1="70" y1="330.0" x2="695" y2="330.0"/><text class="tick" x="62" y="334.0" text-anchor="end">0</text>
+<line class="grid" x1="70" y1="269.0" x2="695" y2="269.0"/><text class="tick" x="62" y="273.0" text-anchor="end">15</text>
+<line class="grid" x1="70" y1="208.0" x2="695" y2="208.0"/><text class="tick" x="62" y="212.0" text-anchor="end">30</text>
+<line class="grid" x1="70" y1="147.0" x2="695" y2="147.0"/><text class="tick" x="62" y="151.0" text-anchor="end">46</text>
+<line class="grid" x1="70" y1="86.0" x2="695" y2="86.0"/><text class="tick" x="62" y="90.0" text-anchor="end">61</text>
+<line class="grid" x1="70" y1="25.0" x2="695" y2="25.0"/><text class="tick" x="62" y="29.0" text-anchor="end">76</text>
+<line class="axis" x1="70" y1="25" x2="70" y2="330"/><line class="axis" x1="70" y1="330" x2="695" y2="330"/>
+<text class="tick" transform="translate(18 177.5) rotate(-90)" text-anchor="middle">median post-route Fmax (MHz)</text>
+<line class="threshold" x1="70" y1="59.8" x2="695" y2="59.8"/><text class="small" x="691" y="54.8" text-anchor="end">-2% Fmax budget</text>
+<line class="target" x1="70" y1="129.3" x2="695" y2="129.3"/><text class="small" x="691" y="124.3" text-anchor="end">50 MHz target</text>
+<rect x="95.0" y="54.3" width="75" height="275.7" fill="#1f77b4"/><text class="small" x="132.5" y="48.3" text-anchor="middle">68.70</text><text class="tick" x="132.5" y="358" text-anchor="middle">baseline</text>
+<rect x="220.0" y="87.2" width="75" height="242.8" fill="#2ca02c"/><text class="small" x="257.5" y="81.2" text-anchor="middle">60.51</text><text class="tick" x="257.5" y="358" text-anchor="middle">FQMUL</text>
+<rect x="345.0" y="88.4" width="75" height="241.6" fill="#d62728"/><text class="small" x="382.5" y="82.4" text-anchor="middle">60.20</text><text class="tick" x="382.5" y="358" text-anchor="middle">RED32</text>
+<rect x="470.0" y="62.2" width="75" height="267.8" fill="#9467bd"/><text class="small" x="507.5" y="56.2" text-anchor="middle">66.72</text><text class="tick" x="507.5" y="358" text-anchor="middle">FSRI comb.</text>
+<rect x="595.0" y="128.3" width="75" height="201.7" fill="#8c564b"/><text class="small" x="632.5" y="122.3" text-anchor="middle">50.25</text><text class="tick" x="632.5" y="358" text-anchor="middle">FSRI reuse</text>
 </svg>
